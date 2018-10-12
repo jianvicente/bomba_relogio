@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>	
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Bomba</title>
+</head>
+
+<body>
+    <div class="app">
+		<div class="div.contador">
+			<h1 type="text" id="cronometro_inicio" class="cronometro" >Carregando...</h1>
+		</div>
+	</div>
+	<div class="rodape">
+		<div class="botao">
+			<button type="button" name="armar" value="ARMAR BOMBA" class="css3button" onclick="armar_bomba()">ARMAR BOMBA</button>
+		</div>	
+	</div>
+	<div class="config">
+		<input type="image" src="img/config.png" class="button_config" onclick="configurar()"/>
+	</div>
+	
+        
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        carrega_pagina(); 
+    </script>
+</body>
+
+</html>

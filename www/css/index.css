@@ -1,0 +1,197 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+.fim{
+	background-color:#00FF00;
+}
+
+.armada{
+	background-color:red;
+	
+}
+.app{
+ 
+    height:100%;
+    margin:0px;
+    padding:0px;
+     width:100%;
+	 display:flex;
+	 justify-content:center;
+	 align-items: center;
+	 text-align: center;
+}
+.rodape{
+	height:100%;
+    margin:0px;
+    padding:0px;
+	position:absolute;
+	
+     width:100%;
+	 display:flex;
+	 justify-content:center;
+	 align-items: center;
+	 float:bottom;
+}	
+
+.css3button {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	color: #f7f2f7;
+	padding: 30px 50px;
+	background: -moz-linear-gradient(
+		top,
+		#f5052d 0%,
+		#f5052d);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#f5052d),
+		to(#f5052d));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 0px solid #000000;
+	
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0),
+		0px 1px 0px rgba(255,255,255,0);
+}
+.css3button_desarme {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	color: #f7f2f7;
+	padding: 30px 50px;
+	background: -moz-linear-gradient(
+		top,
+		#0B0B61 0%,
+		#0B0B61);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#0B0B61),
+		to(#0B0B61));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 0px solid #000000;
+	
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0),
+		0px 1px 0px rgba(255,255,255,0);
+}
+.css3button_nova {
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	color: #f7f2f7;
+	padding: 30px 50px;
+	background: -moz-linear-gradient(
+		top,
+		#0B0B61 0%,
+		#0B0B61);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#0B0B61),
+		to(#0B0B61));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 0px solid #000000;
+	
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0),
+		0px 1px 0px rgba(255,255,255,0);
+}
+.cronometro{
+	font-size:90px;
+	border:none;
+	}
+
+.tempo_bomba{
+	float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    /* cursor: pointer; */
+    /* float: right; */
+}
+.config{
+	position:absolute;
+	float:left;
+	bottom:0;
+	padding: 0,0,0,0;
+}
+
+.button_config{
+	/* background-image:url("img/config.png"); */
+	/* background-color:transparent; */
+	height:50px;
+	width:50px;
+}
+
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

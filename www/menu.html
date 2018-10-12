@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Bomba</title>
+</head>
+
+<body>
+
+<div class="container">
+ 
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">TEMPO PARA A EXPLOSÃO</label>
+		<select id="tempo_bomba" >
+			  <option value="30">30:00</option>
+			  <option value="20">20:00</option>
+			  <option value="15">15:00</option>
+			  <option value="10" selected>10:00</option>
+			  <option value="09">09:00</option>
+			  <option value="08">08:00</option>
+			  <option value="07">07:00</option>
+			  <option value="06">06:00</option>
+			  <option value="05">05:00</option>
+			  <option value="04">04:00</option>
+			  <option value="03">03:00</option>
+			  <option value="02">02:00</option>
+			  <option value="01">01:00</option>
+		</select>
+      </div>
+      <div class="col-75">
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="senha_desarme">SENHA PARA DESARME</label>
+		<input type="text" id="senha_desarme" />
+      </div>
+      <div class="col-75">
+        
+      </div>
+    </div>
+    </br>
+    <div class="row">
+      <input type="submit" value="Configurar" onclick="iniciar_missao()">
+    </div>
+ 
+</div>
+   
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        
+    </script>
+</body>
+
+</html>
